@@ -28,6 +28,11 @@ The MLP (Multilayer Perceptron) class is a simple feedforward neural network mad
 * Optimizer Class
 The Optimizer class implements a basic gradient descent algorithm to update the parameters of the network based on the gradients.
 
+## Computational Graph examples for auto diff
+![image](https://github.com/user-attachments/assets/be6b0791-8b99-4b9f-814f-796aa87b4f76)
+
+![image](https://github.com/user-attachments/assets/b6b791ad-4060-45fa-b79f-d4fe14f62bc5)
+
 ## Comparison to PyTorch Auto-diff
 The automatic differentiation system implemented in this project is conceptually similar to PyTorch's auto-diff feature. Like PyTorch, this implementation builds a computation graph dynamically as operations are applied, allowing for efficient backpropagation of gradients through the network. However, this implementation is much simpler and is designed for educational purposes to illustrate the core concepts of auto-differentiation.
 
